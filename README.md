@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="doc/header-dark.svg">
+    <img alt="islamic_kit_plus" src="doc/header.svg" width="720">
+  </picture>
+</p>
+
 <h1 align="center">IslamicKitPlus</h1>
 
 <p align="center">
