@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_16.4.app || true
+      - name: Build (strict concurrency)
+        run: swift build -Xswiftc -strict-concurrency=complete
+      - name: Test
+        run: swift test --parallel
+      - name: iOS simulator tests
+        run: |
+          DEVICE=$(xcrun simctl list devices available | grep -m1 -o 'iPhone [0-9A-Za-z ]*' | head -1)
+          echo "Using simulator: $DEVICE"
+          xcodebuild -scheme IslamicKitPlus-Package \
+            -destination "platform=iOS Simulator,name=$DEVICE" \
+            -derivedDataPath .build/xcode test
+      - name: Pod lint
+        run: pod lib lint IslamicKitPlus.podspec --allow-warnings --skip-tests

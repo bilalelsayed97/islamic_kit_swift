@@ -1,0 +1,15 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj
+xcuserdata/
+DerivedData/
+
+# SQLite sidecars (the bundled database is opened read-only; never commit these)
+*.db-journal
+*.db-shm
+*.db-wal
+
+# macOS
+.DS_Store

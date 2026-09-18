@@ -1,0 +1,1262 @@
+{
+  "cases": [
+    {
+      "query": "London",
+      "country": "GB",
+      "results": [
+        {
+          "name": "London",
+          "nameAr": "لندن",
+          "country": "GB",
+          "state": null,
+          "lat": 51.50853,
+          "lng": -0.12574,
+          "offsetMinutes": 0
+        },
+        {
+          "name": "City of London",
+          "nameAr": "مدينة لندن",
+          "country": "GB",
+          "state": null,
+          "lat": 51.51279,
+          "lng": -0.09184,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Mecca",
+      "country": null,
+      "results": [
+        {
+          "name": "Mecca",
+          "nameAr": "مكة المكرمة",
+          "country": "SA",
+          "state": null,
+          "lat": 21.42664,
+          "lng": 39.82563,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Mecca",
+          "nameAr": "مكة",
+          "country": "US",
+          "state": null,
+          "lat": 33.57219,
+          "lng": -116.0782,
+          "offsetMinutes": -480
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Cairo",
+      "country": "Egypt",
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.06263,
+          "lng": 31.24967,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "New Cairo",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.03,
+          "lng": 31.47,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Coptic Cairo",
+          "nameAr": "قصر الشمع",
+          "country": "EG",
+          "state": null,
+          "lat": 30.00683,
+          "lng": 31.23053,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Cairo",
+      "country": "EG",
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.06263,
+          "lng": 31.24967,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "New Cairo",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.03,
+          "lng": 31.47,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Coptic Cairo",
+          "nameAr": "قصر الشمع",
+          "country": "EG",
+          "state": null,
+          "lat": 30.00683,
+          "lng": 31.23053,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Tehran",
+      "country": "IR",
+      "results": [
+        {
+          "name": "Tehran",
+          "nameAr": "طهران",
+          "country": "IR",
+          "state": null,
+          "lat": 35.69439,
+          "lng": 51.42151,
+          "offsetMinutes": 210
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Delhi",
+      "country": "IN",
+      "results": [
+        {
+          "name": "Delhi",
+          "nameAr": "دلهي",
+          "country": "IN",
+          "state": null,
+          "lat": 28.65195,
+          "lng": 77.23149,
+          "offsetMinutes": 330
+        },
+        {
+          "name": "New Delhi",
+          "nameAr": "دلهي الجديدة",
+          "country": "IN",
+          "state": null,
+          "lat": 28.63576,
+          "lng": 77.22445,
+          "offsetMinutes": 330
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Paris",
+      "country": "FR",
+      "results": [
+        {
+          "name": "Paris",
+          "nameAr": "باريس",
+          "country": "FR",
+          "state": null,
+          "lat": 48.85341,
+          "lng": 2.3488,
+          "offsetMinutes": 60
+        },
+        {
+          "name": "Le Touquet-Paris-Plage",
+          "nameAr": "لي توكيوت",
+          "country": "FR",
+          "state": null,
+          "lat": 50.52432,
+          "lng": 1.58571,
+          "offsetMinutes": 60
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "London",
+      "country": "ZZ",
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "London",
+      "country": "uk",
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "القاهرة",
+      "country": null,
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.06263,
+          "lng": 31.24967,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "US",
+          "state": null,
+          "lat": 37.00533,
+          "lng": -89.17646,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "US",
+          "state": null,
+          "lat": 30.87751,
+          "lng": -84.20214,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "SY",
+          "state": null,
+          "lat": 35.44493,
+          "lng": 36.30383,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 36.79851,
+          "lng": 42.839,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.86065,
+          "lng": 44.57753,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 36.13471,
+          "lng": 42.01377,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.68879,
+          "lng": 44.23376,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.95384,
+          "lng": 44.21943,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.60927,
+          "lng": 43.53115,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.26634,
+          "lng": 44.38956,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 16.10922,
+          "lng": 43.30878,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.70967,
+          "lng": 43.08511,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.69663,
+          "lng": 43.89319,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.93923,
+          "lng": 43.98422,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.83889,
+          "lng": 43.27906,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 16.15506,
+          "lng": 43.40257,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 16.91579,
+          "lng": 44.16827,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.57816,
+          "lng": 43.44243,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 16.75502,
+          "lng": 43.35943,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.56037,
+          "lng": 43.49663,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.8341,
+          "lng": 44.43311,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 16.0368,
+          "lng": 43.64832,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.33663,
+          "lng": 43.81991,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.19922,
+          "lng": 43.97316,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.19775,
+          "lng": 43.66956,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.04753,
+          "lng": 44.20138,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.20638,
+          "lng": 44.3947,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.88013,
+          "lng": 43.46322,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.19825,
+          "lng": 43.88967,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.80278,
+          "lng": 44.56025,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.38542,
+          "lng": 44.72862,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.46223,
+          "lng": 43.53999,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.37555,
+          "lng": 43.72395,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.27566,
+          "lng": 43.62791,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.4514,
+          "lng": 43.93478,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.4992,
+          "lng": 43.95658,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.30081,
+          "lng": 43.99007,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.90436,
+          "lng": 44.50272,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.02742,
+          "lng": 43.99704,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.82588,
+          "lng": 43.77117,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.22614,
+          "lng": 44.26109,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.56183,
+          "lng": 43.78466,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.31439,
+          "lng": 44.16737,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.3141,
+          "lng": 43.25574,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.97607,
+          "lng": 43.62825,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 31.82954,
+          "lng": 47.14479,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 12.86854,
+          "lng": 44.98429,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 36.39527,
+          "lng": 43.19168,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "New Cairo",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.03,
+          "lng": 31.47,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Al Qāhirah al Jadīdah",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.04214,
+          "lng": 31.44446,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Qal‘at al Qāhirah",
+          "nameAr": "قلعة القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.56238,
+          "lng": 44.0162,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "‘Azzān al Qāhirah",
+          "nameAr": "عزان القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 15.30192,
+          "lng": 43.89355,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Qaryat al Qāhirah",
+          "nameAr": "قرية القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 36.13154,
+          "lng": 43.20624,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Şaghīr al Qāhirah",
+          "nameAr": "صغير القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 13.73427,
+          "lng": 43.79572,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Masākin al Qāhirah",
+          "nameAr": "مساكن القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.0162,
+          "lng": 31.33228,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Masākin Maḩaţţat Kahrabā’ Sharq al Qāhirah",
+          "nameAr": "مساكن محطة كهرباء شرق القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.04279,
+          "lng": 31.35871,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "حارة القاهرة",
+          "country": "YE",
+          "state": null,
+          "lat": 14.80571,
+          "lng": 42.9488,
+          "offsetMinutes": 180
+        },
+        {
+          "name": "Al Qāhirah",
+          "nameAr": "حي القاهرة",
+          "country": "IQ",
+          "state": null,
+          "lat": 33.38233,
+          "lng": 44.39248,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "القاهرة",
+      "country": "EG",
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": "القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.06263,
+          "lng": 31.24967,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "New Cairo",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.03,
+          "lng": 31.47,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Al Qāhirah al Jadīdah",
+          "nameAr": "القاهرة الجديدة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.04214,
+          "lng": 31.44446,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Masākin Maḩaţţat Kahrabā’ Sharq al Qāhirah",
+          "nameAr": "مساكن محطة كهرباء شرق القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.04279,
+          "lng": 31.35871,
+          "offsetMinutes": 120
+        },
+        {
+          "name": "Masākin al Qāhirah",
+          "nameAr": "مساكن القاهرة",
+          "country": "EG",
+          "state": null,
+          "lat": 30.0162,
+          "lng": 31.33228,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "مكة المكرمة",
+      "country": "SA",
+      "results": [
+        {
+          "name": "Mecca",
+          "nameAr": "مكة المكرمة",
+          "country": "SA",
+          "state": null,
+          "lat": 21.42664,
+          "lng": 39.82563,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Riyadh",
+      "country": "SA",
+      "results": [
+        {
+          "name": "Riyadh",
+          "nameAr": "الرياض",
+          "country": "SA",
+          "state": null,
+          "lat": 24.68773,
+          "lng": 46.72185,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Istanbul",
+      "country": "TR",
+      "results": [
+        {
+          "name": "Istanbul",
+          "nameAr": "اسطنبول",
+          "country": "TR",
+          "state": null,
+          "lat": 41.01384,
+          "lng": 28.94966,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Kuala Lumpur",
+      "country": "MY",
+      "results": [
+        {
+          "name": "Kuala Lumpur",
+          "nameAr": "كوالالمبور",
+          "country": "MY",
+          "state": null,
+          "lat": 3.1412,
+          "lng": 101.68653,
+          "offsetMinutes": 480
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Jakarta",
+      "country": "ID",
+      "results": [
+        {
+          "name": "Jakarta",
+          "nameAr": "جاكارتا",
+          "country": "ID",
+          "state": null,
+          "lat": -6.21462,
+          "lng": 106.84513,
+          "offsetMinutes": 420
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Karachi",
+      "country": "PK",
+      "results": [
+        {
+          "name": "Karachi",
+          "nameAr": "كراتشي",
+          "country": "PK",
+          "state": null,
+          "lat": 24.8608,
+          "lng": 67.0104,
+          "offsetMinutes": 300
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Dhaka",
+      "country": "BD",
+      "results": [
+        {
+          "name": "Dhaka",
+          "nameAr": "دكا",
+          "country": "BD",
+          "state": null,
+          "lat": 23.7104,
+          "lng": 90.40744,
+          "offsetMinutes": 360
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Kathmandu",
+      "country": "NP",
+      "results": [
+        {
+          "name": "Kathmandu",
+          "nameAr": "كاتماندو",
+          "country": "NP",
+          "state": null,
+          "lat": 27.70169,
+          "lng": 85.3206,
+          "offsetMinutes": 345
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "St. John's",
+      "country": "CA",
+      "results": [
+        {
+          "name": "St. John's",
+          "nameAr": "سانت جونز",
+          "country": "CA",
+          "state": null,
+          "lat": 47.56494,
+          "lng": -52.70931,
+          "offsetMinutes": -210
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Nowhere Special",
+      "country": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "",
+      "country": "GB",
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "Birmingham",
+      "country": "GB",
+      "results": [
+        {
+          "name": "Birmingham",
+          "nameAr": "برمينغهام",
+          "country": "GB",
+          "state": null,
+          "lat": 52.48142,
+          "lng": -1.89983,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Birmingham",
+      "country": "US",
+      "results": [
+        {
+          "name": "Birmingham",
+          "nameAr": "برمنغهام",
+          "country": "US",
+          "state": null,
+          "lat": 33.52066,
+          "lng": -86.80249,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Birmingham",
+          "nameAr": "برمنغهام",
+          "country": "US",
+          "state": null,
+          "lat": 42.5467,
+          "lng": -83.21132,
+          "offsetMinutes": -300
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Springfield",
+      "country": "US",
+      "results": [
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينج فيلد، إلينوي",
+          "country": "US",
+          "state": null,
+          "lat": 39.80172,
+          "lng": -89.64371,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 32.37241,
+          "lng": -81.3115,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 37.68534,
+          "lng": -85.22218,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 37.21533,
+          "lng": -93.29824,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 39.92423,
+          "lng": -83.80882,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 36.50921,
+          "lng": -86.885,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 37.40835,
+          "lng": -102.61436,
+          "offsetMinutes": -420
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 30.15326,
+          "lng": -85.61132,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 42.10148,
+          "lng": -72.58981,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 44.23885,
+          "lng": -94.97582,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 42.85417,
+          "lng": -97.89729,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 43.29841,
+          "lng": -72.48231,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Springfield",
+          "nameAr": "سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 44.04624,
+          "lng": -123.02203,
+          "offsetMinutes": -480
+        },
+        {
+          "name": "West Springfield",
+          "nameAr": "ويست سبرينغفيلد",
+          "country": "US",
+          "state": null,
+          "lat": 42.10704,
+          "lng": -72.62037,
+          "offsetMinutes": -300
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Alexandria",
+      "country": "EG",
+      "results": [
+        {
+          "name": "Alexandria",
+          "nameAr": "الإسكندرية",
+          "country": "EG",
+          "state": null,
+          "lat": 31.20176,
+          "lng": 29.91582,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Alexandria",
+      "country": "US",
+      "results": [
+        {
+          "name": "Alexandria",
+          "nameAr": "الإسكندرية",
+          "country": "US",
+          "state": null,
+          "lat": 31.31129,
+          "lng": -92.44514,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Alexandria",
+          "nameAr": "الإسكندرية",
+          "country": "US",
+          "state": null,
+          "lat": 38.80484,
+          "lng": -77.04692,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Alexandria",
+          "nameAr": "ألكساندريا",
+          "country": "US",
+          "state": null,
+          "lat": 45.88524,
+          "lng": -95.37754,
+          "offsetMinutes": -360
+        },
+        {
+          "name": "Alexandria",
+          "nameAr": "الإسكندرية",
+          "country": "US",
+          "state": null,
+          "lat": 38.95951,
+          "lng": -84.38799,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Alexandria",
+          "nameAr": "الإسكندرية",
+          "country": "US",
+          "state": null,
+          "lat": 40.26282,
+          "lng": -85.67581,
+          "offsetMinutes": -300
+        },
+        {
+          "name": "Alexandria Bay",
+          "nameAr": "ألكساندريا",
+          "country": "US",
+          "state": null,
+          "lat": 44.33588,
+          "lng": -75.91773,
+          "offsetMinutes": -300
+        }
+      ],
+      "firstUnique": false
+    },
+    {
+      "query": "Trafalgar Square, London, UK",
+      "country": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "Tokyo",
+      "country": "JP",
+      "results": [
+        {
+          "name": "Tokyo",
+          "nameAr": "طوكيو",
+          "country": "JP",
+          "state": null,
+          "lat": 35.6895,
+          "lng": 139.69171,
+          "offsetMinutes": 540
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Dubai",
+      "country": "AE",
+      "results": [
+        {
+          "name": "Dubai",
+          "nameAr": "دبي",
+          "country": "AE",
+          "state": null,
+          "lat": 25.07725,
+          "lng": 55.30927,
+          "offsetMinutes": 240
+        },
+        {
+          "name": "Dubai Marina",
+          "nameAr": "مرسى دبي",
+          "country": "AE",
+          "state": null,
+          "lat": 25.08525,
+          "lng": 55.14646,
+          "offsetMinutes": 240
+        },
+        {
+          "name": "Bur Dubai",
+          "nameAr": "بر دبي",
+          "country": "AE",
+          "state": null,
+          "lat": 25.26038,
+          "lng": 55.29891,
+          "offsetMinutes": 240
+        },
+        {
+          "name": "Downtown Dubai",
+          "nameAr": "وسط مدينة دبي",
+          "country": "AE",
+          "state": null,
+          "lat": 25.19408,
+          "lng": 55.2781,
+          "offsetMinutes": 240
+        }
+      ],
+      "firstUnique": true
+    }
+  ]
+}

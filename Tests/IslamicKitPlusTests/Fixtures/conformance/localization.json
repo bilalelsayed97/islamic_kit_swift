@@ -1,0 +1,2661 @@
+{
+  "calculationMethods": [
+    {
+      "name": "karachi",
+      "titleEn": "Karachi",
+      "titleAr": "كراتشي",
+      "descriptionEn": "University of Islamic Sciences, Karachi — 18° for both Fajr and Isha.",
+      "descriptionAr": "جامعة العلوم الإسلامية بكراتشي — زاوية 18° لكل من الفجر والعشاء.",
+      "id": 1,
+      "code": "KARACHI",
+      "methodName": "University of Islamic Sciences, Karachi",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 1,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 24.8614622,
+          "lng": 67.0099388
+        }
+      }
+    },
+    {
+      "name": "isna",
+      "titleEn": "ISNA",
+      "titleAr": "الجمعية الإسلامية لأمريكا الشمالية",
+      "descriptionEn": "Islamic Society of North America — 15° for both Fajr and Isha.",
+      "descriptionAr": "الجمعية الإسلامية لأمريكا الشمالية — زاوية 15° لكل من الفجر والعشاء.",
+      "id": 2,
+      "code": "ISNA",
+      "methodName": "Islamic Society of North America (ISNA)",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 15.0,
+        "ishaAngle": 15.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 1,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 39.70421229999999,
+          "lng": -86.39943869999999
+        }
+      }
+    },
+    {
+      "name": "mwl",
+      "titleEn": "Muslim World League",
+      "titleAr": "رابطة العالم الإسلامي",
+      "descriptionEn": "Muslim World League — 18° Fajr and 17° Isha, widely used across Europe and beyond.",
+      "descriptionAr": "رابطة العالم الإسلامي — زاوية فجر 18° وعشاء 17°، وهي شائعة في أوروبا وغيرها.",
+      "id": 3,
+      "code": "MWL",
+      "methodName": "Muslim World League",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 1,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 51.5194682,
+          "lng": -0.1360365
+        }
+      }
+    },
+    {
+      "name": "makkah",
+      "titleEn": "Umm al-Qura",
+      "titleAr": "أم القرى",
+      "descriptionEn": "Umm Al-Qura University, Makkah — 18.5° Fajr with Isha fixed at 90 minutes after Maghrib (120 minutes during Ramadan).",
+      "descriptionAr": "جامعة أم القرى بمكة — زاوية فجر 18.5° مع تحديد العشاء بعد 90 دقيقة من المغرب (120 دقيقة في رمضان).",
+      "id": 4,
+      "code": "MAKKAH",
+      "methodName": "Umm Al-Qura University, Makkah",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.5,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 90,
+        "ramadanIshaMinutesAfterMaghrib": 120,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 21.3890824,
+          "lng": 39.8579118
+        }
+      }
+    },
+    {
+      "name": "egypt",
+      "titleEn": "Egypt",
+      "titleAr": "مصر",
+      "descriptionEn": "Egyptian General Authority of Survey — 19.5° Fajr and 17.5° Isha.",
+      "descriptionAr": "الهيئة المصرية العامة للمساحة — زاوية فجر 19.5° وعشاء 17.5°.",
+      "id": 5,
+      "code": "EGYPT",
+      "methodName": "Egyptian General Authority of Survey",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 19.5,
+        "ishaAngle": 17.5,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 1,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 30.0444196,
+          "lng": 31.2357116
+        }
+      }
+    },
+    {
+      "name": "tehran",
+      "titleEn": "Tehran",
+      "titleAr": "طهران",
+      "descriptionEn": "Institute of Geophysics, University of Tehran — 17.7° Fajr and 14° Isha with a 4.5° Maghrib angle.",
+      "descriptionAr": "معهد الجيوفيزياء بجامعة طهران — زاوية فجر 17.7° وعشاء 14° مع زاوية مغرب 4.5°.",
+      "id": 7,
+      "code": "TEHRAN",
+      "methodName": "Institute of Geophysics, University of Tehran",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 17.7,
+        "ishaAngle": 14.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": 4.5,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": "JAFARI",
+        "location": {
+          "lat": 35.6891975,
+          "lng": 51.3889736
+        }
+      }
+    },
+    {
+      "name": "gulf",
+      "titleEn": "Gulf Region",
+      "titleAr": "منطقة الخليج",
+      "descriptionEn": "Gulf Region — 19.5° Fajr with Isha fixed at 90 minutes after Maghrib.",
+      "descriptionAr": "منطقة الخليج — زاوية فجر 19.5° مع تحديد العشاء بعد 90 دقيقة من المغرب.",
+      "id": 8,
+      "code": "GULF",
+      "methodName": "Gulf Region",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 19.5,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 90,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 24.1323638,
+          "lng": 53.3199527
+        }
+      }
+    },
+    {
+      "name": "kuwait",
+      "titleEn": "Kuwait",
+      "titleAr": "الكويت",
+      "descriptionEn": "Kuwait — 18° Fajr and 17.5° Isha.",
+      "descriptionAr": "الكويت — زاوية فجر 18° وعشاء 17.5°.",
+      "id": 9,
+      "code": "KUWAIT",
+      "methodName": "Kuwait",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.5,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 29.375859,
+          "lng": 47.9774052
+        }
+      }
+    },
+    {
+      "name": "qatar",
+      "titleEn": "Qatar",
+      "titleAr": "قطر",
+      "descriptionEn": "Qatar — 18° Fajr with Isha fixed at 90 minutes after Maghrib.",
+      "descriptionAr": "قطر — زاوية فجر 18° مع تحديد العشاء بعد 90 دقيقة من المغرب.",
+      "id": 10,
+      "code": "QATAR",
+      "methodName": "Qatar",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 90,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 25.2854473,
+          "lng": 51.5310398
+        }
+      }
+    },
+    {
+      "name": "singapore",
+      "titleEn": "Singapore (MUIS)",
+      "titleAr": "سنغافورة",
+      "descriptionEn": "Majlis Ugama Islam Singapura — 20° Fajr and 18° Isha.",
+      "descriptionAr": "المجلس الإسلامي في سنغافورة — زاوية فجر 20° وعشاء 18°.",
+      "id": 11,
+      "code": "SINGAPORE",
+      "methodName": "Majlis Ugama Islam Singapura, Singapore",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 20.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 1,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 1.352083,
+          "lng": 103.819836
+        }
+      }
+    },
+    {
+      "name": "france",
+      "titleEn": "France (UOIF)",
+      "titleAr": "فرنسا",
+      "descriptionEn": "Union des Organisations Islamiques de France — 12° for both Fajr and Isha.",
+      "descriptionAr": "اتحاد المنظمات الإسلامية في فرنسا — زاوية 12° لكل من الفجر والعشاء.",
+      "id": 12,
+      "code": "FRANCE",
+      "methodName": "Union Organization Islamic de France",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 12.0,
+        "ishaAngle": 12.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 48.856614,
+          "lng": 2.3522219
+        }
+      }
+    },
+    {
+      "name": "turkey",
+      "titleEn": "Turkey (Diyanet)",
+      "titleAr": "تركيا (ديانت)",
+      "descriptionEn": "Diyanet İşleri Başkanlığı, Turkey — 18° Fajr and 17° Isha.",
+      "descriptionAr": "رئاسة الشؤون الدينية التركية (ديانت) — زاوية فجر 18° وعشاء 17°.",
+      "id": 13,
+      "code": "TURKEY",
+      "methodName": "Diyanet İşleri Başkanlığı, Turkey",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 39.9333635,
+          "lng": 32.8597419
+        }
+      }
+    },
+    {
+      "name": "russia",
+      "titleEn": "Russia",
+      "titleAr": "روسيا",
+      "descriptionEn": "Spiritual Administration of Muslims of Russia — 16° Fajr and 15° Isha.",
+      "descriptionAr": "الإدارة الدينية لمسلمي روسيا — زاوية فجر 16° وعشاء 15°.",
+      "id": 14,
+      "code": "RUSSIA",
+      "methodName": "Spiritual Administration of Muslims of Russia",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 16.0,
+        "ishaAngle": 15.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 54.73479099999999,
+          "lng": 55.9578555
+        }
+      }
+    },
+    {
+      "name": "moonsighting",
+      "titleEn": "Moonsighting Committee",
+      "titleAr": "لجنة رؤية الهلال",
+      "descriptionEn": "Moonsighting Committee Worldwide — 18° Fajr and Isha bounded by a seasonal calculation that varies with latitude and time of year.",
+      "descriptionAr": "لجنة رؤية الهلال العالمية — زاوية 18° للفجر والعشاء مقيّدة بحساب موسمي يتغيّر مع خط العرض والفصل.",
+      "id": 15,
+      "code": "MOONSIGHTING",
+      "methodName": "Moonsighting Committee Worldwide (Moonsighting.com)",
+      "usesMoonsighting": true,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 5,
+          "asr": 0,
+          "maghrib": 3,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": null
+      }
+    },
+    {
+      "name": "dubai",
+      "titleEn": "Dubai",
+      "titleAr": "دبي",
+      "descriptionEn": "Dubai — 18.2° for both Fajr and Isha.",
+      "descriptionAr": "دبي — زاوية 18.2° لكل من الفجر والعشاء.",
+      "id": 16,
+      "code": "DUBAI",
+      "methodName": "The Gulf Region — Dubai",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.2,
+        "ishaAngle": 18.2,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": -3,
+          "dhuhr": 3,
+          "asr": 3,
+          "maghrib": 3,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 25.0762677,
+          "lng": 55.087404
+        }
+      }
+    },
+    {
+      "name": "jakim",
+      "titleEn": "Malaysia (JAKIM)",
+      "titleAr": "ماليزيا (جاكيم)",
+      "descriptionEn": "Jabatan Kemajuan Islam Malaysia (JAKIM) — 20° Fajr and 18° Isha.",
+      "descriptionAr": "دائرة التنمية الإسلامية الماليزية (جاكيم) — زاوية فجر 20° وعشاء 18°.",
+      "id": 17,
+      "code": "JAKIM",
+      "methodName": "Jabatan Kemajuan Islam Malaysia (JAKIM)",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 20.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 3.139003,
+          "lng": 101.686855
+        }
+      }
+    },
+    {
+      "name": "tunisia",
+      "titleEn": "Tunisia",
+      "titleAr": "تونس",
+      "descriptionEn": "Tunisia — 18° for both Fajr and Isha.",
+      "descriptionAr": "تونس — زاوية 18° لكل من الفجر والعشاء.",
+      "id": 18,
+      "code": "TUNISIA",
+      "methodName": "Tunisia",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 36.8064948,
+          "lng": 10.1815316
+        }
+      }
+    },
+    {
+      "name": "algeria",
+      "titleEn": "Algeria",
+      "titleAr": "الجزائر",
+      "descriptionEn": "Algeria — 18° Fajr and 17° Isha.",
+      "descriptionAr": "الجزائر — زاوية فجر 18° وعشاء 17°.",
+      "id": 19,
+      "code": "ALGERIA",
+      "methodName": "Algeria",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 36.753768,
+          "lng": 3.0587561
+        }
+      }
+    },
+    {
+      "name": "kemenag",
+      "titleEn": "Indonesia (Kemenag)",
+      "titleAr": "إندونيسيا (كيمناغ)",
+      "descriptionEn": "Kementerian Agama Republik Indonesia — 20° Fajr and 18° Isha.",
+      "descriptionAr": "وزارة الشؤون الدينية بجمهورية إندونيسيا — زاوية فجر 20° وعشاء 18°.",
+      "id": 20,
+      "code": "KEMENAG",
+      "methodName": "Kementerian Agama Republik Indonesia",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 20.0,
+        "ishaAngle": 18.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": -6.2087634,
+          "lng": 106.845599
+        }
+      }
+    },
+    {
+      "name": "morocco",
+      "titleEn": "Morocco",
+      "titleAr": "المغرب",
+      "descriptionEn": "Morocco — 18° Fajr and 17° Isha.",
+      "descriptionAr": "المملكة المغربية — زاوية فجر 18° وعشاء 17°.",
+      "id": 21,
+      "code": "MOROCCO",
+      "methodName": "Morocco",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 33.9715904,
+          "lng": -6.8498129
+        }
+      }
+    },
+    {
+      "name": "portugal",
+      "titleEn": "Portugal",
+      "titleAr": "البرتغال",
+      "descriptionEn": "Comunidade Islâmica de Lisboa — 18° Fajr with Isha fixed at 77 minutes after Maghrib.",
+      "descriptionAr": "الجالية الإسلامية في لشبونة — زاوية فجر 18° مع تحديد العشاء بعد 77 دقيقة من المغرب.",
+      "id": 22,
+      "code": "PORTUGAL",
+      "methodName": "Comunidade Islamica de Lisboa",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 77,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": 3,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 38.7222524,
+          "lng": -9.1393366
+        }
+      }
+    },
+    {
+      "name": "jordan",
+      "titleEn": "Jordan",
+      "titleAr": "الأردن",
+      "descriptionEn": "Ministry of Awqaf, Islamic Affairs and Holy Places, Jordan — 18.5° Fajr with Isha fixed at 90 minutes after Maghrib.",
+      "descriptionAr": "وزارة الأوقاف والشؤون والمقدسات الإسلامية بالأردن — زاوية فجر 18.5° مع تحديد العشاء بعد 90 دقيقة من المغرب.",
+      "id": 23,
+      "code": "JORDAN",
+      "methodName": "Ministry of Awqaf, Islamic Affairs and Holy Places, Jordan",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 18.5,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 90,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 31.9461222,
+          "lng": 35.923844
+        }
+      }
+    },
+    {
+      "name": "oman",
+      "titleEn": "Oman",
+      "titleAr": "عُمان",
+      "descriptionEn": "Ministry of Endowments and Religious Affairs, Oman — 18.5° Fajr with Isha fixed at 90 minutes after Maghrib.",
+      "descriptionAr": "وزارة الأوقاف والشؤون الدينية بسلطنة عُمان — زاوية فجر 18.5° مع تحديد العشاء بعد 90 دقيقة من المغرب.",
+      "id": 101,
+      "code": "OMAN",
+      "methodName": "Ministry of Endowments and Religious Affairs, Oman",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.5,
+        "ishaAngle": null,
+        "ishaMinutesAfterMaghrib": 90,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 23.588,
+          "lng": 58.3829
+        }
+      }
+    },
+    {
+      "name": "munich",
+      "titleEn": "Germany (Munich)",
+      "titleAr": "ألمانيا (ميونخ)",
+      "descriptionEn": "Islamic Center of Munich, Germany — 18° Fajr and 17° Isha.",
+      "descriptionAr": "المركز الإسلامي في ميونخ بألمانيا — زاوية فجر 18° وعشاء 17°.",
+      "id": 102,
+      "code": "MUNICH",
+      "methodName": "Islamic Center of Munich, Germany",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 48.1351,
+          "lng": 11.582
+        }
+      }
+    },
+    {
+      "name": "maldives",
+      "titleEn": "Maldives",
+      "titleAr": "المالديف",
+      "descriptionEn": "Ministry of Islamic Affairs, Maldives — 18° Fajr and 17° Isha.",
+      "descriptionAr": "وزارة الشؤون الإسلامية بجمهورية المالديف — زاوية فجر 18° وعشاء 17°.",
+      "id": 103,
+      "code": "MALDIVES",
+      "methodName": "Ministry of Islamic Affairs, Maldives",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 4.1755,
+          "lng": 73.5093
+        }
+      }
+    },
+    {
+      "name": "canada",
+      "titleEn": "Canada",
+      "titleAr": "كندا",
+      "descriptionEn": "Canada — 15° for both Fajr and Isha.",
+      "descriptionAr": "كندا — زاوية 15° لكل من الفجر والعشاء.",
+      "id": 104,
+      "code": "CANADA",
+      "methodName": "Canada",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 15.0,
+        "ishaAngle": 15.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 45.4215,
+          "lng": -75.6972
+        }
+      }
+    },
+    {
+      "name": "tajikistan",
+      "titleEn": "Tajikistan",
+      "titleAr": "طاجيكستان",
+      "descriptionEn": "Islamic Center of Tajikistan — 18° Fajr and 17° Isha.",
+      "descriptionAr": "المركز الإسلامي في طاجيكستان — زاوية فجر 18° وعشاء 17°.",
+      "id": 105,
+      "code": "TAJIKISTAN",
+      "methodName": "Islamic Center of Tajikistan",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 38.5598,
+          "lng": 68.787
+        }
+      }
+    },
+    {
+      "name": "vienna",
+      "titleEn": "Austria (Vienna)",
+      "titleAr": "النمسا (فيينا)",
+      "descriptionEn": "Islamic Community of Austria, Vienna — 18° Fajr and 17° Isha.",
+      "descriptionAr": "الهيئة الإسلامية في النمسا بفيينا — زاوية فجر 18° وعشاء 17°.",
+      "id": 106,
+      "code": "VIENNA",
+      "methodName": "Islamic Community of Austria, Vienna",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 48.2082,
+          "lng": 16.3738
+        }
+      }
+    },
+    {
+      "name": "belgium",
+      "titleEn": "Belgium",
+      "titleAr": "بلجيكا",
+      "descriptionEn": "Belgium — 18° Fajr and 17° Isha.",
+      "descriptionAr": "بلجيكا — زاوية فجر 18° وعشاء 17°.",
+      "id": 107,
+      "code": "BELGIUM",
+      "methodName": "Belgium",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 50.8503,
+          "lng": 4.3517
+        }
+      }
+    },
+    {
+      "name": "sudan",
+      "titleEn": "Sudan",
+      "titleAr": "السودان",
+      "descriptionEn": "Sudan — 19.5° Fajr and 17.5° Isha.",
+      "descriptionAr": "السودان — زاوية فجر 19.5° وعشاء 17.5°.",
+      "id": 108,
+      "code": "SUDAN",
+      "methodName": "Sudan",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 19.5,
+        "ishaAngle": 17.5,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 15.5007,
+          "lng": 32.5599
+        }
+      }
+    },
+    {
+      "name": "libya",
+      "titleEn": "Libya",
+      "titleAr": "ليبيا",
+      "descriptionEn": "Libya — 19.5° Fajr and 17.5° Isha.",
+      "descriptionAr": "ليبيا — زاوية فجر 19.5° وعشاء 17.5°.",
+      "id": 109,
+      "code": "LIBYA",
+      "methodName": "Libya",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 19.5,
+        "ishaAngle": 17.5,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 32.8872,
+          "lng": 13.1913
+        }
+      }
+    },
+    {
+      "name": "iraq",
+      "titleEn": "Iraq",
+      "titleAr": "العراق",
+      "descriptionEn": "Iraq — 18° Fajr and 17° Isha.",
+      "descriptionAr": "العراق — زاوية فجر 18° وعشاء 17°.",
+      "id": 110,
+      "code": "IRAQ",
+      "methodName": "Iraq",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 33.3152,
+          "lng": 44.3661
+        }
+      }
+    },
+    {
+      "name": "luxembourg",
+      "titleEn": "Luxembourg",
+      "titleAr": "لوكسمبورغ",
+      "descriptionEn": "Luxembourg — 18° Fajr and 17° Isha.",
+      "descriptionAr": "لوكسمبورغ — زاوية فجر 18° وعشاء 17°.",
+      "id": 111,
+      "code": "LUXEMBOURG",
+      "methodName": "Luxembourg",
+      "usesMoonsighting": false,
+      "isAladhanMethod": false,
+      "params": {
+        "fajrAngle": 18.0,
+        "ishaAngle": 17.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": {
+          "lat": 49.6116,
+          "lng": 6.1319
+        }
+      }
+    },
+    {
+      "name": "custom",
+      "titleEn": "Custom",
+      "titleAr": "مخصّص",
+      "descriptionEn": "A user-supplied method that uses your own twilight parameters.",
+      "descriptionAr": "طريقة مخصّصة يوفّرها المستخدم بمعاملات الشفق الخاصة به.",
+      "id": 99,
+      "code": "CUSTOM",
+      "methodName": "Custom",
+      "usesMoonsighting": false,
+      "isAladhanMethod": true,
+      "params": {
+        "fajrAngle": 15.0,
+        "ishaAngle": 15.0,
+        "ishaMinutesAfterMaghrib": null,
+        "ramadanIshaMinutesAfterMaghrib": null,
+        "maghribAngle": null,
+        "maghribMinutesAfterSunset": null,
+        "adjustments": {
+          "fajr": 0,
+          "sunrise": 0,
+          "dhuhr": 0,
+          "asr": 0,
+          "maghrib": 0,
+          "isha": 0
+        },
+        "midnightMode": null,
+        "location": null
+      }
+    }
+  ],
+  "asrSchools": [
+    {
+      "name": "standard",
+      "titleEn": "Standard (Shafi'i, Maliki, Hanbali)",
+      "titleAr": "القياسي (الشافعي والمالكي والحنبلي)",
+      "descriptionEn": "Asr begins when an object's shadow equals its own length (shadow factor 1).",
+      "descriptionAr": "يبدأ وقت العصر عندما يساوي طول ظل الشيء طوله (معامل الظل 1).",
+      "aladhanId": 0,
+      "metaValue": "STANDARD",
+      "shadowFactor": 1
+    },
+    {
+      "name": "hanafi",
+      "titleEn": "Hanafi",
+      "titleAr": "الحنفي",
+      "descriptionEn": "Asr begins when an object's shadow is twice its own length (shadow factor 2).",
+      "descriptionAr": "يبدأ وقت العصر عندما يبلغ طول ظل الشيء ضعف طوله (معامل الظل 2).",
+      "aladhanId": 1,
+      "metaValue": "HANAFI",
+      "shadowFactor": 2
+    }
+  ],
+  "midnightModes": [
+    {
+      "name": "standard",
+      "titleEn": "Standard",
+      "titleAr": "القياسي",
+      "descriptionEn": "Midnight is the midpoint between sunset and the following sunrise.",
+      "descriptionAr": "منتصف الليل هو منتصف المدة بين الغروب وشروق اليوم التالي.",
+      "aladhanId": 0,
+      "metaValue": "STANDARD"
+    },
+    {
+      "name": "jafari",
+      "titleEn": "Jafari (Shia)",
+      "titleAr": "الجعفري (الشيعة)",
+      "descriptionEn": "Midnight is the midpoint between sunset and the following Fajr.",
+      "descriptionAr": "منتصف الليل هو منتصف المدة بين الغروب وفجر اليوم التالي.",
+      "aladhanId": 1,
+      "metaValue": "JAFARI"
+    }
+  ],
+  "highLatitudeRules": [
+    {
+      "name": "none",
+      "titleEn": "None",
+      "titleAr": "بدون",
+      "descriptionEn": "No high-latitude adjustment is applied to the twilight times.",
+      "descriptionAr": "لا يُطبَّق أي تعديل على المواقيت في خطوط العرض العالية.",
+      "aladhanId": 0,
+      "metaValue": "NONE"
+    },
+    {
+      "name": "middleOfNight",
+      "titleEn": "Middle of Night",
+      "titleAr": "منتصف الليل",
+      "descriptionEn": "The night is split in half to bound the Fajr and Isha times at its midpoint.",
+      "descriptionAr": "يُقسَّم الليل نصفين ليقيّد وقتي الفجر والعشاء عند منتصف الليل.",
+      "aladhanId": 1,
+      "metaValue": "MIDDLE_OF_THE_NIGHT"
+    },
+    {
+      "name": "oneSeventh",
+      "titleEn": "One-Seventh",
+      "titleAr": "سُبع الليل",
+      "descriptionEn": "The night is divided into seven parts to bound the Fajr and Isha times.",
+      "descriptionAr": "يُقسَّم الليل إلى سبعة أجزاء لضبط وقتي الفجر والعشاء.",
+      "aladhanId": 2,
+      "metaValue": "ONE_SEVENTH"
+    },
+    {
+      "name": "angleBased",
+      "titleEn": "Angle-Based",
+      "titleAr": "حسب الزاوية",
+      "descriptionEn": "A portion of the night proportional to the twilight angle (angle / 60) is used.",
+      "descriptionAr": "يُستخدم جزء من الليل يتناسب مع زاوية الشفق (الزاوية ÷ 60).",
+      "aladhanId": 3,
+      "metaValue": "ANGLE_BASED"
+    }
+  ],
+  "shafaqs": [
+    {
+      "name": "general",
+      "titleEn": "General",
+      "titleAr": "عام",
+      "descriptionEn": "General twilight, combining the red and white afterglow, used to compute Isha.",
+      "descriptionAr": "الشفق العام الذي يجمع بين الحُمرة والبياض، ويُستخدم لحساب العشاء.",
+      "code": "general"
+    },
+    {
+      "name": "ahmer",
+      "titleEn": "Red Twilight",
+      "titleAr": "الشفق الأحمر",
+      "descriptionEn": "Isha is based on the disappearance of the red twilight (shafaq al-ahmar).",
+      "descriptionAr": "يُحسب وقت العشاء بناءً على مغيب الشفق الأحمر.",
+      "code": "ahmer"
+    },
+    {
+      "name": "abyad",
+      "titleEn": "White Twilight",
+      "titleAr": "الشفق الأبيض",
+      "descriptionEn": "Isha is based on the disappearance of the white twilight (shafaq al-abyad).",
+      "descriptionAr": "يُحسب وقت العشاء بناءً على مغيب الشفق الأبيض.",
+      "code": "abyad"
+    }
+  ],
+  "calendarMethods": [
+    {
+      "name": "hjcosa",
+      "titleEn": "High Judicial Council (KSA)",
+      "titleAr": "الهيئة العليا للقضاء",
+      "descriptionEn": "Umm al-Qura calendar with the Saudi High Judicial Council sighting adjustments (aladhan default).",
+      "descriptionAr": "تقويم أم القرى مع تعديلات الرؤية المعتمدة من الهيئة العليا للقضاء في السعودية (الإعداد الافتراضي).",
+      "code": "HJCoSA"
+    },
+    {
+      "name": "uaq",
+      "titleEn": "Umm al-Qura",
+      "titleAr": "أم القرى",
+      "descriptionEn": "The official Umm al-Qura tabular calendar of Saudi Arabia.",
+      "descriptionAr": "تقويم أم القرى الجدولي الرسمي في المملكة العربية السعودية.",
+      "code": "UAQ"
+    },
+    {
+      "name": "diyanet",
+      "titleEn": "Diyanet (Turkey)",
+      "titleAr": "ديانت التركية",
+      "descriptionEn": "The tabular Hijri calendar published by Turkey's Diyanet İşleri Başkanlığı.",
+      "descriptionAr": "التقويم الهجري الجدولي الصادر عن رئاسة الشؤون الدينية التركية (ديانت).",
+      "code": "DIYANET"
+    },
+    {
+      "name": "mathematical",
+      "titleEn": "Mathematical",
+      "titleAr": "حسابي",
+      "descriptionEn": "A purely arithmetic (tabular) Hijri calendar that supports a day adjustment.",
+      "descriptionAr": "تقويم هجري حسابي (جدولي) بحت يدعم تعديل الأيام.",
+      "code": "MATHEMATICAL"
+    }
+  ],
+  "timeFormats": [
+    {
+      "name": "h24",
+      "titleEn": "24-Hour",
+      "titleAr": "24 ساعة",
+      "descriptionEn": "24-hour clock, e.g. 03:57.",
+      "descriptionAr": "نظام 24 ساعة، مثل 03:57.",
+      "code": "24h"
+    },
+    {
+      "name": "h12",
+      "titleEn": "12-Hour",
+      "titleAr": "12 ساعة",
+      "descriptionEn": "12-hour clock with an am/pm suffix, e.g. 3:57 am.",
+      "descriptionAr": "نظام 12 ساعة مع لاحقة ص/م، مثل 3:57 ص.",
+      "code": "12h"
+    },
+    {
+      "name": "h12NoSuffix",
+      "titleEn": "12-Hour (No Suffix)",
+      "titleAr": "12 ساعة بدون لاحقة",
+      "descriptionEn": "12-hour clock without an am/pm suffix, e.g. 3:57.",
+      "descriptionAr": "نظام 12 ساعة بدون لاحقة ص/م، مثل 3:57.",
+      "code": "12hNS"
+    },
+    {
+      "name": "float",
+      "titleEn": "Decimal Hours",
+      "titleAr": "ساعات عشرية",
+      "descriptionEn": "Raw floating-point hours from 0 to 24, e.g. 3.95.",
+      "descriptionAr": "ساعات عشرية خام من 0 إلى 24، مثل 3.95.",
+      "code": "Float"
+    },
+    {
+      "name": "iso8601",
+      "titleEn": "ISO 8601",
+      "titleAr": "آيزو 8601",
+      "descriptionEn": "ISO-8601 timestamp with a timezone offset, e.g. 2014-04-24T03:57:00+01:00.",
+      "descriptionAr": "طابع زمني بصيغة آيزو 8601 مع إزاحة المنطقة الزمنية، مثل 2014-04-24T03:57:00+01:00.",
+      "code": "iso8601"
+    }
+  ],
+  "prayers": [
+    {
+      "name": "imsak",
+      "titleEn": "Imsak",
+      "titleAr": "الإمساك",
+      "descriptionEn": "The time to stop eating before Fajr while fasting.",
+      "descriptionAr": "وقت الإمساك عن الطعام قبل الفجر أثناء الصيام.",
+      "key": "Imsak",
+      "nameEn": "Imsak",
+      "nameAr": "الإمساك"
+    },
+    {
+      "name": "fajr",
+      "titleEn": "Fajr",
+      "titleAr": "الفجر",
+      "descriptionEn": "The dawn prayer, observed before sunrise.",
+      "descriptionAr": "صلاة الفجر التي تُؤدَّى قبل شروق الشمس.",
+      "key": "Fajr",
+      "nameEn": "Fajr",
+      "nameAr": "الفجر"
+    },
+    {
+      "name": "sunrise",
+      "titleEn": "Sunrise",
+      "titleAr": "الشروق",
+      "descriptionEn": "The moment the sun rises, marking the end of the Fajr window.",
+      "descriptionAr": "لحظة شروق الشمس التي تنتهي عندها فترة صلاة الفجر.",
+      "key": "Sunrise",
+      "nameEn": "Sunrise",
+      "nameAr": "الشروق"
+    },
+    {
+      "name": "dhuhr",
+      "titleEn": "Dhuhr",
+      "titleAr": "الظهر",
+      "descriptionEn": "The noon prayer, observed just after the sun passes its zenith.",
+      "descriptionAr": "صلاة الظهر التي تُؤدَّى بعد زوال الشمس عن كبد السماء.",
+      "key": "Dhuhr",
+      "nameEn": "Dhuhr",
+      "nameAr": "الظهر"
+    },
+    {
+      "name": "asr",
+      "titleEn": "Asr",
+      "titleAr": "العصر",
+      "descriptionEn": "The afternoon prayer.",
+      "descriptionAr": "صلاة العصر في فترة ما بعد الظهر.",
+      "key": "Asr",
+      "nameEn": "Asr",
+      "nameAr": "العصر"
+    },
+    {
+      "name": "sunset",
+      "titleEn": "Sunset",
+      "titleAr": "الغروب",
+      "descriptionEn": "The moment the sun sets, coinciding with the start of Maghrib.",
+      "descriptionAr": "لحظة غروب الشمس التي يبدأ عندها وقت المغرب.",
+      "key": "Sunset",
+      "nameEn": "Sunset",
+      "nameAr": "الغروب"
+    },
+    {
+      "name": "maghrib",
+      "titleEn": "Maghrib",
+      "titleAr": "المغرب",
+      "descriptionEn": "The sunset prayer, observed just after the sun has set.",
+      "descriptionAr": "صلاة المغرب التي تُؤدَّى بعد غروب الشمس مباشرة.",
+      "key": "Maghrib",
+      "nameEn": "Maghrib",
+      "nameAr": "المغرب"
+    },
+    {
+      "name": "isha",
+      "titleEn": "Isha",
+      "titleAr": "العشاء",
+      "descriptionEn": "The night prayer, observed after twilight has disappeared.",
+      "descriptionAr": "صلاة العشاء التي تُؤدَّى بعد غياب الشفق.",
+      "key": "Isha",
+      "nameEn": "Isha",
+      "nameAr": "العشاء"
+    },
+    {
+      "name": "midnight",
+      "titleEn": "Midnight",
+      "titleAr": "منتصف الليل",
+      "descriptionEn": "The midpoint of the Islamic night.",
+      "descriptionAr": "منتصف الليل الشرعي بين الغروب والفجر.",
+      "key": "Midnight",
+      "nameEn": "Midnight",
+      "nameAr": "منتصف الليل"
+    },
+    {
+      "name": "firstThird",
+      "titleEn": "First Third",
+      "titleAr": "الثلث الأول",
+      "descriptionEn": "The end of the first third of the night.",
+      "descriptionAr": "نهاية الثلث الأول من الليل.",
+      "key": "Firstthird",
+      "nameEn": "First Third",
+      "nameAr": "الثلث الأول"
+    },
+    {
+      "name": "lastThird",
+      "titleEn": "Last Third",
+      "titleAr": "الثلث الأخير",
+      "descriptionEn": "The start of the last third of the night, favored for night prayer.",
+      "descriptionAr": "بداية الثلث الأخير من الليل، وهو وقت مستحب لقيام الليل.",
+      "key": "Lastthird",
+      "nameEn": "Last Third",
+      "nameAr": "الثلث الأخير"
+    }
+  ],
+  "languages": [
+    {
+      "name": "en",
+      "titleEn": "English",
+      "titleAr": "الإنجليزية",
+      "descriptionEn": "Display prayer, month and weekday names in English.",
+      "descriptionAr": "عرض أسماء الصلوات والأشهر وأيام الأسبوع باللغة الإنجليزية."
+    },
+    {
+      "name": "ar",
+      "titleEn": "Arabic",
+      "titleAr": "العربية",
+      "descriptionEn": "Display prayer, month and weekday names in Arabic.",
+      "descriptionAr": "عرض أسماء الصلوات والأشهر وأيام الأسبوع باللغة العربية."
+    }
+  ],
+  "localizer": {
+    "islamicMonths": {
+      "1": {
+        "en": "Muharram",
+        "ar": "مُحَرَّم"
+      },
+      "2": {
+        "en": "Safar",
+        "ar": "صَفَر"
+      },
+      "3": {
+        "en": "Rabi al-awwal",
+        "ar": "رَبيع الأوّل"
+      },
+      "4": {
+        "en": "Rabi al-thani",
+        "ar": "رَبيع الثاني"
+      },
+      "5": {
+        "en": "Jumadi al-awal",
+        "ar": "جُمادى الأول"
+      },
+      "6": {
+        "en": "Jumadi al-akhir",
+        "ar": "جُمادى الآخر"
+      },
+      "7": {
+        "en": "Rajab",
+        "ar": "رَجَب"
+      },
+      "8": {
+        "en": "Sha'ban",
+        "ar": "شَعْبان"
+      },
+      "9": {
+        "en": "Ramadan",
+        "ar": "رَمَضان"
+      },
+      "10": {
+        "en": "Shawwal",
+        "ar": "شَوّال"
+      },
+      "11": {
+        "en": "Dhu al-Qa'dah",
+        "ar": "ذوالقعدة"
+      },
+      "12": {
+        "en": "Dhu al-Hijjah",
+        "ar": "ذوالحجة"
+      }
+    },
+    "hijriWeekdays": {
+      "1": {
+        "en": "Monday",
+        "ar": "الاثنين"
+      },
+      "2": {
+        "en": "Tuesday",
+        "ar": "الثلاثاء"
+      },
+      "3": {
+        "en": "Wednesday",
+        "ar": "الاربعاء"
+      },
+      "4": {
+        "en": "Thursday",
+        "ar": "الخميس"
+      },
+      "5": {
+        "en": "Friday",
+        "ar": "الجمعة"
+      },
+      "6": {
+        "en": "Saturday",
+        "ar": "السبت"
+      },
+      "7": {
+        "en": "Sunday",
+        "ar": "الاحد"
+      }
+    },
+    "gregorianMonths": {
+      "1": {
+        "en": "January",
+        "ar": "يناير"
+      },
+      "2": {
+        "en": "February",
+        "ar": "فبراير"
+      },
+      "3": {
+        "en": "March",
+        "ar": "مارس"
+      },
+      "4": {
+        "en": "April",
+        "ar": "أبريل"
+      },
+      "5": {
+        "en": "May",
+        "ar": "مايو"
+      },
+      "6": {
+        "en": "June",
+        "ar": "يونيو"
+      },
+      "7": {
+        "en": "July",
+        "ar": "يوليو"
+      },
+      "8": {
+        "en": "August",
+        "ar": "أغسطس"
+      },
+      "9": {
+        "en": "September",
+        "ar": "سبتمبر"
+      },
+      "10": {
+        "en": "October",
+        "ar": "أكتوبر"
+      },
+      "11": {
+        "en": "November",
+        "ar": "نوفمبر"
+      },
+      "12": {
+        "en": "December",
+        "ar": "ديسمبر"
+      }
+    },
+    "gregorianWeekdays": {
+      "1": {
+        "en": "Monday",
+        "ar": "الإثنين"
+      },
+      "2": {
+        "en": "Tuesday",
+        "ar": "الثلاثاء"
+      },
+      "3": {
+        "en": "Wednesday",
+        "ar": "الأربعاء"
+      },
+      "4": {
+        "en": "Thursday",
+        "ar": "الخميس"
+      },
+      "5": {
+        "en": "Friday",
+        "ar": "الجمعة"
+      },
+      "6": {
+        "en": "Saturday",
+        "ar": "السبت"
+      },
+      "7": {
+        "en": "Sunday",
+        "ar": "الأحد"
+      }
+    },
+    "monthAbbrEn": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ]
+  },
+  "fallbacks": {
+    "calculationMethodFromId(-1)": "MWL",
+    "calculationMethodFromCode(NOPE)": "MWL",
+    "asrSchoolFromAladhanId(9)": "STANDARD",
+    "midnightModeFromAladhanId(9)": "STANDARD",
+    "highLatitudeRuleFromAladhanId(9)": "ANGLE_BASED",
+    "shafaqFromCode(x)": "general",
+    "calendarMethodFromCode(x)": "HJCoSA"
+  },
+  "locationDefaults": {
+    "AD": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AE": {
+      "method": "DUBAI",
+      "school": "STANDARD"
+    },
+    "AF": {
+      "method": "KARACHI",
+      "school": "HANAFI"
+    },
+    "AG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AQ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AT": {
+      "method": "VIENNA",
+      "school": "STANDARD"
+    },
+    "AU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AX": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "AZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BB": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BD": {
+      "method": "KARACHI",
+      "school": "HANAFI"
+    },
+    "BE": {
+      "method": "BELGIUM",
+      "school": "STANDARD"
+    },
+    "BF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BH": {
+      "method": "MAKKAH",
+      "school": "STANDARD"
+    },
+    "BI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BJ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BN": {
+      "method": "JAKIM",
+      "school": "STANDARD"
+    },
+    "BO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BQ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BV": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "BZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CA": {
+      "method": "CANADA",
+      "school": "STANDARD"
+    },
+    "CC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CD": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CV": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CX": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "CZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "DE": {
+      "method": "MUNICH",
+      "school": "STANDARD"
+    },
+    "DJ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "DK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "DM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "DO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "DZ": {
+      "method": "ALGERIA",
+      "school": "STANDARD"
+    },
+    "EC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "EE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "EG": {
+      "method": "EGYPT",
+      "school": "STANDARD"
+    },
+    "EH": {
+      "method": "MOROCCO",
+      "school": "STANDARD"
+    },
+    "ER": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ES": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ET": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FJ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "FR": {
+      "method": "FRANCE",
+      "school": "STANDARD"
+    },
+    "GA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GB": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GD": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GP": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GQ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "GY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "HU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ID": {
+      "method": "SINGAPORE",
+      "school": "STANDARD"
+    },
+    "IE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "IM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "IN": {
+      "method": "KARACHI",
+      "school": "HANAFI"
+    },
+    "IO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "IQ": {
+      "method": "IRAQ",
+      "school": "STANDARD"
+    },
+    "IR": {
+      "method": "TEHRAN",
+      "school": "STANDARD"
+    },
+    "IS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "IT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "JE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "JM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "JO": {
+      "method": "JORDAN",
+      "school": "STANDARD"
+    },
+    "JP": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KP": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KW": {
+      "method": "KUWAIT",
+      "school": "STANDARD"
+    },
+    "KY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "KZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LB": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LU": {
+      "method": "LUXEMBOURG",
+      "school": "STANDARD"
+    },
+    "LV": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "LY": {
+      "method": "LIBYA",
+      "school": "STANDARD"
+    },
+    "MA": {
+      "method": "MOROCCO",
+      "school": "STANDARD"
+    },
+    "MC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MD": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ME": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MF": {
+      "method": "FRANCE",
+      "school": "STANDARD"
+    },
+    "MG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ML": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MP": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MQ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MV": {
+      "method": "MALDIVES",
+      "school": "STANDARD"
+    },
+    "MW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "MX": {
+      "method": "ISNA",
+      "school": "STANDARD"
+    },
+    "MY": {
+      "method": "SINGAPORE",
+      "school": "STANDARD"
+    },
+    "MZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NG": {
+      "method": "EGYPT",
+      "school": "STANDARD"
+    },
+    "NI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NP": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "NZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "OM": {
+      "method": "OMAN",
+      "school": "STANDARD"
+    },
+    "PA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PK": {
+      "method": "KARACHI",
+      "school": "HANAFI"
+    },
+    "PL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PT": {
+      "method": "PORTUGAL",
+      "school": "STANDARD"
+    },
+    "PW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "PY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "QA": {
+      "method": "QATAR",
+      "school": "STANDARD"
+    },
+    "RE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "RO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "RS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "RU": {
+      "method": "RUSSIA",
+      "school": "STANDARD"
+    },
+    "RW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SA": {
+      "method": "MAKKAH",
+      "school": "STANDARD"
+    },
+    "SB": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SD": {
+      "method": "SUDAN",
+      "school": "STANDARD"
+    },
+    "SE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SG": {
+      "method": "SINGAPORE",
+      "school": "STANDARD"
+    },
+    "SH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SJ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SN": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SR": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SS": {
+      "method": "SUDAN",
+      "school": "STANDARD"
+    },
+    "ST": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SV": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SX": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "SY": {
+      "method": "MAKKAH",
+      "school": "STANDARD"
+    },
+    "SZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TD": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TH": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TJ": {
+      "method": "TAJIKISTAN",
+      "school": "STANDARD"
+    },
+    "TK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TL": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TN": {
+      "method": "TUNISIA",
+      "school": "STANDARD"
+    },
+    "TO": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TR": {
+      "method": "TURKEY",
+      "school": "HANAFI"
+    },
+    "TT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TV": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "TZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "UA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "UG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "UM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "US": {
+      "method": "ISNA",
+      "school": "STANDARD"
+    },
+    "UY": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "UZ": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VC": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VE": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VG": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VI": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "VN": {
+      "method": "MAKKAH",
+      "school": "STANDARD"
+    },
+    "VU": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "WF": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "WS": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "XK": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "YE": {
+      "method": "MAKKAH",
+      "school": "STANDARD"
+    },
+    "YT": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ZA": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ZM": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "ZW": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "XX": {
+      "method": "MWL",
+      "school": "STANDARD"
+    },
+    "gb": {
+      "method": "MWL",
+      "school": "STANDARD"
+    }
+  },
+  "bundledMethodMap": {
+    "1": "KARACHI",
+    "2": "ISNA",
+    "3": "MWL",
+    "4": "MAKKAH",
+    "5": "EGYPT",
+    "6": "DUBAI",
+    "7": "KUWAIT",
+    "8": "QATAR",
+    "9": "SINGAPORE",
+    "10": "ALGERIA",
+    "11": "FRANCE",
+    "12": "RUSSIA",
+    "13": "TUNISIA",
+    "14": "TURKEY",
+    "15": "MOROCCO",
+    "16": "JORDAN",
+    "17": "OMAN",
+    "18": "MUNICH",
+    "19": "MALDIVES",
+    "20": "CANADA",
+    "21": "TAJIKISTAN",
+    "22": "VIENNA",
+    "23": "BELGIUM",
+    "24": "SUDAN",
+    "25": "LIBYA",
+    "26": "IRAQ",
+    "27": "LUXEMBOURG",
+    "28": "TEHRAN",
+    "29": "MOONSIGHTING",
+    "30": "CUSTOM"
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "cases": [
+    {
+      "query": "London",
+      "country": "GB",
+      "state": null,
+      "results": [
+        {
+          "name": "London",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 51.5073509,
+          "lng": -0.1277583,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "London",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "London",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 51.5073509,
+          "lng": -0.1277583,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "London",
+      "country": "England",
+      "state": null,
+      "results": [
+        {
+          "name": "London",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 51.5073509,
+          "lng": -0.1277583,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "london",
+      "country": "united kingdom",
+      "state": null,
+      "results": [
+        {
+          "name": "London",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 51.5073509,
+          "lng": -0.1277583,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Trafalgar Square, London, UK",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "London",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 51.5073509,
+          "lng": -0.1277583,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Cairo",
+      "country": "Egypt",
+      "state": null,
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": null,
+          "country": "EG",
+          "state": null,
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Cairo",
+      "country": "EG",
+      "state": null,
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": null,
+          "country": "EG",
+          "state": null,
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "cairo",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "Cairo",
+          "nameAr": null,
+          "country": "EG",
+          "state": null,
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "offsetMinutes": 120
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Mecca",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "Mecca",
+          "nameAr": null,
+          "country": "SA",
+          "state": null,
+          "lat": 21.3891,
+          "lng": 39.8579,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Mecca",
+      "country": "SA",
+      "state": null,
+      "results": [
+        {
+          "name": "Mecca",
+          "nameAr": null,
+          "country": "SA",
+          "state": null,
+          "lat": 21.3891,
+          "lng": 39.8579,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Mecca",
+      "country": "ksa",
+      "state": null,
+      "results": [
+        {
+          "name": "Mecca",
+          "nameAr": null,
+          "country": "SA",
+          "state": null,
+          "lat": 21.3891,
+          "lng": 39.8579,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "New York",
+      "country": "USA",
+      "state": "New York",
+      "results": [
+        {
+          "name": "New York",
+          "nameAr": null,
+          "country": "US",
+          "state": "New York",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "offsetMinutes": -300
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "New York",
+      "country": "US",
+      "state": null,
+      "results": [
+        {
+          "name": "New York",
+          "nameAr": null,
+          "country": "US",
+          "state": "New York",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "offsetMinutes": -300
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Sydney",
+      "country": "Australia",
+      "state": "New South Wales",
+      "results": [
+        {
+          "name": "Sydney",
+          "nameAr": null,
+          "country": "AU",
+          "state": "New South Wales",
+          "lat": -33.8688,
+          "lng": 151.2093,
+          "offsetMinutes": 600
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Sydney",
+      "country": "AU",
+      "state": "Victoria",
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "Paris",
+      "country": "FR",
+      "state": null,
+      "results": [
+        {
+          "name": "Paris",
+          "nameAr": null,
+          "country": "FR",
+          "state": null,
+          "lat": 48.856614,
+          "lng": 2.3522219,
+          "offsetMinutes": 60
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Par",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "Paris",
+          "nameAr": null,
+          "country": "FR",
+          "state": null,
+          "lat": 48.856614,
+          "lng": 2.3522219,
+          "offsetMinutes": 60
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "  Istanbul  ",
+      "country": "Turkey",
+      "state": null,
+      "results": [
+        {
+          "name": "Istanbul",
+          "nameAr": null,
+          "country": "TR",
+          "state": null,
+          "lat": 41.0082,
+          "lng": 28.9784,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Istanbul",
+      "country": "türkiye",
+      "state": null,
+      "results": [
+        {
+          "name": "Istanbul",
+          "nameAr": null,
+          "country": "TR",
+          "state": null,
+          "lat": 41.0082,
+          "lng": 28.9784,
+          "offsetMinutes": 180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Nowhere",
+      "country": null,
+      "state": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "",
+      "country": null,
+      "state": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "Tehran",
+      "country": "IR",
+      "state": null,
+      "results": [
+        {
+          "name": "Tehran",
+          "nameAr": null,
+          "country": "IR",
+          "state": null,
+          "lat": 35.6892,
+          "lng": 51.389,
+          "offsetMinutes": 210
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Delhi",
+      "country": "India",
+      "state": null,
+      "results": [
+        {
+          "name": "Delhi",
+          "nameAr": null,
+          "country": "IN",
+          "state": null,
+          "lat": 28.7041,
+          "lng": 77.1025,
+          "offsetMinutes": 330
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Kabul",
+      "country": null,
+      "state": null,
+      "results": [
+        {
+          "name": "Kabul",
+          "nameAr": null,
+          "country": "AF",
+          "state": null,
+          "lat": 34.5553,
+          "lng": 69.2075,
+          "offsetMinutes": 270
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Auckland",
+      "country": "NZ",
+      "state": null,
+      "results": [
+        {
+          "name": "Auckland",
+          "nameAr": null,
+          "country": "NZ",
+          "state": null,
+          "lat": -36.8485,
+          "lng": 174.7633,
+          "offsetMinutes": 720
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "London",
+      "country": "ZZ",
+      "state": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "London",
+      "country": "uk",
+      "state": null,
+      "results": [],
+      "firstUnique": false
+    },
+    {
+      "query": "Sao Paulo",
+      "country": "BR",
+      "state": null,
+      "results": [
+        {
+          "name": "Sao Paulo",
+          "nameAr": null,
+          "country": "BR",
+          "state": null,
+          "lat": -23.5505,
+          "lng": -46.6333,
+          "offsetMinutes": -180
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Perth",
+      "country": "AU",
+      "state": "Western Australia",
+      "results": [
+        {
+          "name": "Perth",
+          "nameAr": null,
+          "country": "AU",
+          "state": "Western Australia",
+          "lat": -31.9523,
+          "lng": 115.8613,
+          "offsetMinutes": 480
+        }
+      ],
+      "firstUnique": true
+    },
+    {
+      "query": "Manchester",
+      "country": "GB",
+      "state": "England",
+      "results": [
+        {
+          "name": "Manchester",
+          "nameAr": null,
+          "country": "GB",
+          "state": "England",
+          "lat": 53.4808,
+          "lng": -2.2426,
+          "offsetMinutes": 0
+        }
+      ],
+      "firstUnique": true
+    }
+  ]
+}
