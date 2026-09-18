@@ -4,6 +4,31 @@ All notable changes to this package are documented here. The version's
 major.minor tracks the Dart `islamic_kit_plus` engine it reproduces; the
 patch component is independent.
 
+## Unreleased
+
+### Fixed
+- **Hijri → Gregorian was wrong for the table methods** (Umm al-Qura, Diyanet,
+  HJCoSA). `toGregorian` ignored the lunation table that `fromGregorian` reads
+  and used the arithmetic (tabular) calendar instead — a defect inherited, via
+  the Dart reference, from the PHP original — so the two directions disagreed
+  by a day or two wherever the observed month start differs from the tabular
+  one: 1 Muharram 1448 converted to 17 June 2026, a day `fromGregorian` calls
+  2 Muharram. 3,411 of the 11,888 reference cases (29%) were affected.
+  `toGregorian` now reads the same table backwards, so the two directions are
+  exact inverses for every day of both tables, and the Hijri calendars of
+  `PrayerTimesService` start each month on its 1st. `fromGregorian`, the
+  mathematical method and the HJCoSA announced dates are unchanged;
+  `adjustment` still shifts the result by whole days.
+- HJCoSA caveat, unchanged: an announcement moves single days (the 1st, the
+  10th) of a month between 2003 and 2021, which the surrounding days, still
+  read off the table, cannot mirror.
+
+### Changed
+- Conformance fixtures re-synced from the fixed Dart reference (generated at
+  `e9dde03c958875519c2f291b2c625adc371b12cd`): `hijri.json` and
+  `calendars.json` changed, every other fixture is byte-identical.
+- New exhaustive round-trip tests (every day of each table).
+
 ## 0.3.0
 
 Initial release: a behavioural Swift port of

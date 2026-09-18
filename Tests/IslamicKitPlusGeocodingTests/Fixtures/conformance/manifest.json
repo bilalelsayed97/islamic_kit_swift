@@ -3,9 +3,9 @@
   "generator": "islamic_kit_plus tool/conformance/generate.dart",
   "packageVersion": "0.3.1",
   "dartSdk": "3.13.2",
-  "gitSha": "1bd306ec2fc624694a4f43b556d5de0ef5d55aa7",
+  "gitSha": "e9dde03c958875519c2f291b2c625adc371b12cd",
   "tz": "UTC",
-  "generatedAt": "2026-09-18T16:39:03.184386Z",
+  "generatedAt": "2026-09-18T23:06:53.970896Z",
   "counts": {
     "timings_matrix": 3808,
     "timings_detail": 58,

@@ -17,8 +17,14 @@ struct YMD: Hashable, Sendable {
     var dartDescription: String { "(\(year), \(month), \(day))" }
 }
 
-/// Table-driven converter (Umm al-Qura, Diyanet). `gToH` is a lunation-table
-/// lookup; `hToG` uses the arithmetic Hijri->JD path, exactly as the PHP.
+/// Table-driven converter (Umm al-Qura, Diyanet). Both directions read the same
+/// lunation table, so they are exact inverses: `toGregorian(fromGregorian(d))`
+/// is `d` for every date in range.
+///
+/// (The PHP original converts Hijri -> Gregorian with the arithmetic calendar
+/// instead, which lands a day or two off whenever the observed month start
+/// differs from the tabular one. That is a defect, not a convention, and is
+/// not reproduced here.)
 public struct TableHijriConverter: HijriConverter {
     public let method: CalendarMethod
     let data: [Int]
@@ -83,10 +89,7 @@ public struct TableHijriConverter: HijriConverter {
     public func verifyHijri(year: Int, month: Int, day: Int) throws {
         let v = YMD(year, month, day).encoded
         if v < hijriFrom.encoded || v > hijriTo.encoded {
-            throw IslamicKitError.hijriDateOutOfRange(
-                "Hijri date out of range for \(method.code) "
-                    + "(\(hijriFrom.dartDescription) .. \(hijriTo.dartDescription))."
-            )
+            throw hijriOutOfRange
         }
     }
 
@@ -104,11 +107,22 @@ public struct TableHijriConverter: HijriConverter {
         )
     }
 
-    /// Ignores the table and applies `adjustment` to the arithmetic path,
-    /// exactly as the Dart/PHP implementation does.
+    private var hijriOutOfRange: IslamicKitError {
+        .hijriDateOutOfRange(
+            "Hijri date out of range for \(method.code) "
+                + "(\(hijriFrom.dartDescription) .. \(hijriTo.dartDescription))."
+        )
+    }
+
+    /// The table lookup run backwards. `adjustment` shifts the result by whole
+    /// days (it has no effect on `fromGregorian`, as in the original).
     public func toGregorian(year: Int, month: Int, day: Int, adjustment: Int) throws -> CivilDate {
         try verifyHijri(year: year, month: month, day: day)
-        let jd = JulianDayMath.hijriToJd(year, month, day, adjust: adjustment)
-        return JulianDayMath.jdToGregorian(jd)
+        // A month number outside 1...12 can pass the bounds check above yet
+        // point past the table.
+        guard let jd = JulianDayMath.tableToJd(data, lunations, year, month, day) else {
+            throw hijriOutOfRange
+        }
+        return JulianDayMath.jdToGregorian(jd + adjustment)
     }
 }
