@@ -50,7 +50,10 @@ public struct HjcosaConverter: HijriConverter {
             let p = gregorian.split(separator: "-")
             return CivilDate(year: Int(p[2])!, month: Int(p[1])!, day: Int(p[0])!)
         }
-        let jd = JulianDayMath.hijriToJd(year, month, day, adjust: adjustment)
-        return JulianDayMath.jdToGregorian(jd)
+        // No announcement for this date: the Umm al-Qura table, the same one
+        // fromGregorian falls back to.
+        return try HjcosaConverter.uaq.toGregorian(
+            year: year, month: month, day: day, adjustment: adjustment
+        )
     }
 }
