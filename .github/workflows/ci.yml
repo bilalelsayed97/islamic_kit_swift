@@ -20,15 +20,15 @@ jobs:
         run: swift test --parallel
       - name: iOS simulator tests
         run: |
-          # Pick a simulator from xcodebuild's own destination list so the
-          # chosen id is always one this Xcode can run tests on.
-          DEST_ID=$(xcodebuild -scheme IslamicKitPlus-Package -showdestinations 2>/dev/null \
-            | grep 'platform:iOS Simulator' | grep -v placeholder \
-            | grep -o 'id:[0-9A-F-]*' | head -1 | cut -d: -f2)
-          test -n "$DEST_ID" || { echo "No iOS simulator destination available"; exit 1; }
+          DEST_ID=$(./tool/ios-simulator-id.sh) || {
+            echo "Could not pick an iOS simulator; available devices:"
+            xcrun simctl list devices available
+            exit 1
+          }
           echo "Using iOS simulator id $DEST_ID"
           xcodebuild -scheme IslamicKitPlus-Package \
             -destination "platform=iOS Simulator,id=$DEST_ID" \
+            -destination-timeout 180 \
             -derivedDataPath .build/xcode test
       - name: Pod lint
         run: pod lib lint IslamicKitPlus.podspec --allow-warnings --skip-tests --platforms=ios,macos
