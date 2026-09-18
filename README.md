@@ -92,7 +92,7 @@ geocoding match against.
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/bilalelsayed97/islamic_kit_swift.git", from: "0.3.0"),
+    .package(url: "https://github.com/bilalelsayed97/islamic_kit_swift.git", from: "0.3.1"),
 ],
 targets: [
     .target(

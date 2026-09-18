@@ -4,7 +4,7 @@ All notable changes to this package are documented here. The version's
 major.minor tracks the Dart `islamic_kit_plus` engine it reproduces; the
 patch component is independent.
 
-## Unreleased
+## 0.3.1
 
 ### Fixed
 - **Hijri → Gregorian was wrong for the table methods** (Umm al-Qura, Diyanet,

@@ -14,5 +14,5 @@
 public enum IslamicKitPlus {
     /// The Dart engine version this port reproduces (major.minor) with an
     /// independent patch component.
-    public static let version = "0.3.0"
+    public static let version = "0.3.1"
 }

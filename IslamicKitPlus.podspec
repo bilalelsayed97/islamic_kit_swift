@@ -12,7 +12,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IslamicKitPlus'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'Offline prayer times, Hijri calendar, qibla and city geocoding for Swift.'
 
   s.description      = <<-DESC
