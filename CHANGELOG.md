@@ -4,6 +4,22 @@ All notable changes to this package are documented here. The version's
 major.minor tracks the Dart `islamic_kit_plus` engine it reproduces; the
 patch component is independent.
 
+## 0.3.2
+
+### Fixed
+- **Crash on 32-bit `Int` platforms (Apple Watch `arm64_32`).**
+  `PrayerTime.epochMilliseconds` multiplied `unixMidnightSeconds` by 1000 in
+  `Int`; on a watch with 32-bit `Int` today's value (~1.8e12) overflows
+  `Int32.max` and Swift traps, so any watchOS consumer of `instant` crashed.
+  `epochMilliseconds`, `CivilDate.unixMidnightSeconds` and `DateInfo.timestamp`
+  are now `Int64` (Dart's `int` is 64-bit, so the conformance contract is
+  unchanged; the seconds values would also have overflowed in 2038). Values
+  are identical on 64-bit platforms.
+
+### Changed
+- The three properties above are `Int64` instead of `Int` (source-breaking for
+  callers that store them in an `Int`).
+
 ## 0.3.1
 
 ### Fixed

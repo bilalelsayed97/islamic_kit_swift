@@ -32,7 +32,7 @@ final class ConformanceTimingsTests: XCTestCase {
 
         struct DateBlock: Decodable {
             let readable: String
-            let timestamp: Int
+            let timestamp: Int64
             let gregorianWeekdayEn: String
             let gregorianMonthEn: String
             let gregorian: String
@@ -74,7 +74,7 @@ final class ConformanceTimingsTests: XCTestCase {
         let raw: FixtureRaw
         let solar: Solar
         let formatted: [String: [String: String]]
-        let epochMillis: [String: Int?]
+        let epochMillis: [String: Int64?]
         /// The generator overwrites the input `date` string with this block;
         /// the input date is recovered from `gregorian` (`dd-mm-yyyy`).
         let date: DateBlock

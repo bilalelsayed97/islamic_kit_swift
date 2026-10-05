@@ -68,7 +68,7 @@ public struct PrayerCalculator: Sendable {
         )
         let hijri = try hijriFactory.create(params.calendarMethod).fromGregorian(date)
         let readable = "\(StringHelpers.two(date.day)) \(Localizer.monthAbbrEn[date.month - 1]) \(date.year)"
-        let timestamp = date.unixMidnightSeconds - params.utcOffset.seconds
+        let timestamp = date.unixMidnightSeconds - Int64(params.utcOffset.seconds)
 
         return DateInfo(readable: readable, timestamp: timestamp, gregorian: gregorian, hijri: hijri)
     }

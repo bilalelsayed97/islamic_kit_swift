@@ -5,12 +5,12 @@ public struct DateInfo: Hashable, Sendable {
     public let readable: String
 
     /// Unix timestamp (seconds) of the civil date at the used UTC offset.
-    public let timestamp: Int
+    public let timestamp: Int64
 
     public let gregorian: GregorianDate
     public let hijri: HijriDate
 
-    public init(readable: String, timestamp: Int, gregorian: GregorianDate, hijri: HijriDate) {
+    public init(readable: String, timestamp: Int64, gregorian: GregorianDate, hijri: HijriDate) {
         self.readable = readable
         self.timestamp = timestamp
         self.gregorian = gregorian

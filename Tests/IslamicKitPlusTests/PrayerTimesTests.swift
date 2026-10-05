@@ -36,6 +36,22 @@ final class PrayerTimesTests: XCTestCase {
         ], format: .h12)
     }
 
+    // MARK: 32-bit platforms
+
+    func testEpochValuesFitOn32BitPlatforms() throws {
+        // On Apple Watch (`arm64_32`) `Int` is 32 bits, and today's epoch
+        // milliseconds (~1.8e12) overflow it, which traps. The annotations
+        // keep these `Int64`; the values pin a 2026 instant past `Int32.max`.
+        let result = try service.timings(CivilDate(year: 2026, month: 10, day: 5), raleigh, raleighParams)
+        let midnight: Int64 = CivilDate(year: 2026, month: 10, day: 5).unixMidnightSeconds
+        let fajr: Int64 = try XCTUnwrap(result.time(.fajr).epochMilliseconds)
+        let timestamp: Int64 = result.date.timestamp
+        XCTAssertEqual(midnight, 1_791_158_400)
+        XCTAssertGreaterThan(fajr, Int64(Int32.max))
+        XCTAssertEqual(result.time(.fajr).instant?.timeIntervalSince1970, Double(fajr) / 1000)
+        XCTAssertEqual(timestamp, midnight + 4 * 3600)
+    }
+
     func testShafiAsrDiffersFromHanafi() throws {
         let shafi = try service.timings(
             CivilDate(year: 2015, month: 7, day: 12), raleigh,
@@ -80,7 +96,7 @@ final class PrayerTimesTests: XCTestCase {
         XCTAssertEqual(result.formatted(.dhuhr, .h12), "1:00 pm")
         XCTAssertEqual(result.formatted(.dhuhr, .float), "13.0")
         XCTAssertEqual(result.time(.lastThird).hours.map { $0 > 24 }, true)
-        XCTAssertEqual(result.time(.fajr).epochMilliseconds, (1398297600 + Int(3.95 * 3600) - 3600) * 1000)
+        XCTAssertEqual(result.time(.fajr).epochMilliseconds, Int64(1398297600 + Int(3.95 * 3600) - 3600) * 1000)
         XCTAssertEqual(result.time(.fajr).description, "Fajr: 03:57")
         XCTAssertEqual(result.timings.toFormattedMap()[.isha], "22:02")
         XCTAssertEqual(result.timings.raw.entries.map(\.prayer), Prayer.allCases)

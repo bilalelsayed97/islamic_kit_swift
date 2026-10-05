@@ -38,10 +38,11 @@ public struct PrayerTime: Hashable, Sendable, CustomStringConvertible {
 
     /// Milliseconds since the Unix epoch of the absolute instant, or `nil` if
     /// invalid (Dart `toUtc().millisecondsSinceEpoch`).
-    public var epochMilliseconds: Int? {
+    /// `Int64` because the value (~1.8e12) overflows a 32-bit `Int`.
+    public var epochMilliseconds: Int64? {
         guard isValid, let hours = hours else { return nil }
-        let wall = date.unixMidnightSeconds * 1000 + Int((hours * 3_600_000).rounded())
-        return wall - utcOffset.seconds * 1000
+        let wall = date.unixMidnightSeconds * 1000 + Int64((hours * 3_600_000).rounded())
+        return wall - Int64(utcOffset.seconds) * 1000
     }
 
     /// The absolute instant as a Foundation `Date`, or `nil` if invalid.

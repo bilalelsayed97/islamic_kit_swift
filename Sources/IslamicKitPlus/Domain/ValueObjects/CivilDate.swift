@@ -60,7 +60,9 @@ public struct CivilDate: Hashable, Comparable, Sendable, CustomStringConvertible
     public var epochDay: Int { julianDayNumber - 2440588 }
 
     /// Seconds since the Unix epoch at 00:00 UTC of this civil date.
-    public var unixMidnightSeconds: Int { epochDay * 86400 }
+    /// `Int64` so it holds on 32-bit `Int` platforms (Apple Watch `arm64_32`),
+    /// where it would overflow in 2038 and its milliseconds overflow today.
+    public var unixMidnightSeconds: Int64 { Int64(epochDay) * 86400 }
 
     /// Whether `year` is a Gregorian leap year.
     public var isLeapYear: Bool { CivilDate.isLeapYear(year) }
