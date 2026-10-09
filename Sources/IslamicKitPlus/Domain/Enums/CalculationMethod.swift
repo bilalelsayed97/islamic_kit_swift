@@ -189,7 +189,7 @@ public enum CalculationMethod: Int, CaseIterable, Sendable {
             return MethodDescriptor(
                 code: "EGYPT",
                 methodName: "Egyptian General Authority of Survey",
-                params: MethodParams(fajrAngle: 19.5, ishaAngle: 17.5, adjustments: MethodAdjustments(dhuhr: 1), location: Coordinates(30.0444196, 31.2357116)),
+                params: MethodParams(fajrAngle: 19.5, ishaAngle: 17.5, location: Coordinates(30.0444196, 31.2357116)),
                 usesMoonsighting: false)
         case .tehran:
             return MethodDescriptor(

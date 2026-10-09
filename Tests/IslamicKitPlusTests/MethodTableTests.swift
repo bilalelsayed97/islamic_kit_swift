@@ -64,10 +64,14 @@ final class MethodTableTests: XCTestCase {
     // MARK: Method corrections
 
     func testAuthoritiesThatPublishDhuhrAMinuteLate() {
-        let plusOne: Set<CalculationMethod> = [.karachi, .isna, .mwl, .egypt, .singapore]
+        let plusOne: Set<CalculationMethod> = [.karachi, .isna, .mwl, .singapore]
         for method in plusOne {
             XCTAssertEqual(method.params.adjustments.dhuhr, 1, method.code)
         }
+    }
+
+    func testEgyptPublishesDhuhrAtTheZenith() {
+        XCTAssertTrue(CalculationMethod.egypt.params.adjustments.isEmpty)
     }
 
     func testDubaiShiftsSunriseDhuhrAsrAndMaghrib() {

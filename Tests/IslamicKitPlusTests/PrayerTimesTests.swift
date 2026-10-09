@@ -60,6 +60,26 @@ final class PrayerTimesTests: XCTestCase {
         XCTAssertEqual(shafi.formatted(.asr, .h12), "5:09 pm")
     }
 
+    // MARK: Egyptian method — Cairo 2026-10-09
+
+    func testCairoDhuhrAtTheZenithAndAsrFromTheTransitDeclination() throws {
+        // Transit is 12:42:20, published as is. Asr is 16:01:34 with the
+        // declination taken at transit; the 0h UTC value gave 16:01:15.
+        let result = try service.timings(
+            CivilDate(year: 2026, month: 10, day: 9),
+            Coordinates(30.0444196, 31.2357116),
+            CalculationParameters(method: .egypt, utcOffset: UTCOffset(hours: 3)) // Africa/Cairo, EEST
+        )
+        assertTimes(result, [
+            .fajr: "05:27",
+            .sunrise: "06:53",
+            .dhuhr: "12:42",
+            .asr: "16:02",
+            .maghrib: "18:31",
+            .isha: "19:48",
+        ])
+    }
+
     // MARK: ISNA London 2014-04-24 (24h)
 
     private let london = Coordinates(51.508515, -0.1254872)
