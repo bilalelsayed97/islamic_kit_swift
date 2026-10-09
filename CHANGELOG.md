@@ -4,6 +4,28 @@ All notable changes to this package are documented here. The version's
 major.minor tracks the Dart `islamic_kit_plus` engine it reproduces; the
 patch component is independent.
 
+## 0.3.3
+
+### Fixed
+- **Asr was computed from a stale solar declination.** The shadow at transit,
+  the baseline the Asr shadow is measured against, came from the sun's
+  declination at 0h UTC instead of at transit (inherited, via the Dart
+  reference, from the Adhan algorithm). Around the equinoxes that left Asr up
+  to about half a minute off, enough to change the printed minute on roughly
+  one day in three: Cairo on 9 October 2026 read `16:01` where the sun gives
+  `16:02`. `SolarTime` now interpolates the declination to the moment of
+  transit. Only Asr moves, by at most a minute; the Adhan reference vectors
+  are unaffected.
+- **The Egyptian method no longer adds a minute to Dhuhr.** `.egypt` carried
+  the same `Dhuhr +1` as MWL, Karachi, ISNA and Singapore, but Egyptian times
+  are published at the zenith: Cairo on 9 October 2026 read `12:43` against a
+  published `12:42`. Callers who want the margin back can pass
+  `dhuhrMinutes: 1`.
+
+### Changed
+- Conformance fixtures regenerated from the Dart reference (`timings_matrix`,
+  `timings_detail`, `calendars`, `aladhan`, `localization`, `directory`).
+
 ## 0.3.2
 
 ### Fixed

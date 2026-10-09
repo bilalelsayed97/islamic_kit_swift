@@ -92,7 +92,7 @@ geocoding match against.
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/bilalelsayed97/islamic_kit_swift.git", from: "0.3.2"),
+    .package(url: "https://github.com/bilalelsayed97/islamic_kit_swift.git", from: "0.3.3"),
 ],
 targets: [
     .target(
@@ -372,7 +372,7 @@ as "adjustments"; they apply before your own `tune` offsets.
 |---|---|---|---|
 | `.mwl` — Muslim World League | 18° | 17° | Dhuhr +1 |
 | `.isna` — Islamic Society of North America | 15° | 15° | Dhuhr +1 |
-| `.egypt` — Egyptian General Authority of Survey | 19.5° | 17.5° | Dhuhr +1 |
+| `.egypt` — Egyptian General Authority of Survey | 19.5° | 17.5° | |
 | `.makkah` — Umm al‑Qura, Makkah | 18.5° | 90 min (**120 in Ramadan**) | |
 | `.karachi` — University of Islamic Sciences | 18° | 18° | Dhuhr +1 |
 | `.tehran` — University of Tehran | 17.7° | 14° (Maghrib 4.5°) | |
